@@ -1,0 +1,80 @@
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/input1_prompt"
+        android:id="@+id/textView"
+        android:focusableInTouchMode="false"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input1"
+        android:layout_weight="1"
+        android:textSize="28dp"
+        android:textStyle="italic"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_height="wrap_content"
+                  android:layout_width="match_parent"
+                  android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/input2_prompt"
+            android:id="@+id/textView2"
+            android:focusableInTouchMode="false"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input2"
+            android:layout_weight="1"
+            android:textSize="28dp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compute"
+        android:id="@+id/compute"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/output1_prompt"
+        android:id="@+id/textView3"
+        android:focusableInTouchMode="false"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/output1"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/output2_prompt"
+        android:id="@+id/textView4"
+        android:focusableInTouchMode="false"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/output2"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+</LinearLayout>
